@@ -1,0 +1,12 @@
+C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Data\bin\Debug\netcoreapp3.1\EntityFrameworkCore.Data.deps.json
+C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Data\bin\Debug\netcoreapp3.1\EntityFrameworkCore.Data.dll
+C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Data\bin\Debug\netcoreapp3.1\EntityFrameworkCore.Data.pdb
+C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Data\obj\Debug\netcoreapp3.1\EntityFrameworkCore.Data.csprojAssemblyReference.cache
+C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Data\obj\Debug\netcoreapp3.1\EntityFrameworkCore.Data.AssemblyInfoInputs.cache
+C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Data\obj\Debug\netcoreapp3.1\EntityFrameworkCore.Data.AssemblyInfo.cs
+C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Data\obj\Debug\netcoreapp3.1\EntityFrameworkCore.Data.dll
+C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Data\obj\Debug\netcoreapp3.1\EntityFrameworkCore.Data.pdb
+C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Data\bin\Debug\netcoreapp3.1\EntityFrameworkCore.Data.runtimeconfig.json
+C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Data\bin\Debug\netcoreapp3.1\EntityFrameworkCore.Data.runtimeconfig.dev.json
+C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Data\obj\Debug\netcoreapp3.1\EntityFrameworkCore.Data.genruntimeconfig.cache
+C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Data\obj\Debug\netcoreapp3.1\EntityFrameworkCore.Data.csproj.CoreCompileInputs.cache
