@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ81obEWmozyDMocsk02ZXp3WaPytD7L94u3Q&usqp=CAU" alt="Unform" />
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ81obEWmozyDMocsk02ZXp3WaPytD7L94u3Q&usqp=CAU" alt="EntityFrameworkCore" />
 </p>
 
 <h3 align="center">
@@ -16,18 +16,21 @@ Projeto de Teste Integrado com acesso ao Banco de Dados SQL Server utilizando En
 
 ## Passo a passo para utilizar o projeto
 <p>
-  1 - Baixar o repositírio e abrir a solution utilizando o Visual Studio Community.
+  1 - Baixar o repositório e abrir a solution utilizando o Visual Studio Community.
+  <img src="https://github.com/RodolfoRCamargo/EntityFrameworkCore/blob/master/Leia-me/1-ProjetoVisualStudio.png?raw=true" alt="Passo1" />  
 </p>
 
   2 - No Terminal do Visual Studio, execute o comando abaixo para criar o Banco de Dados utilizando a Migration do projeto.
 ```bash
 Update-database
 ```
+<img src="https://github.com/RodolfoRCamargo/EntityFrameworkCore/blob/master/Leia-me/2-CriarBancoDados.png?raw=true" alt="Passo2" />  
 
 <p>
  3 - No Gerenciador de Testes do Visual Studi, execute todos os testes ou o que você preferir.
+  <img src="https://github.com/RodolfoRCamargo/EntityFrameworkCore/blob/master/Leia-me/3-ExecutarTestes.png?raw=true" alt="Passo3" />  
 </p>
-<br />
+
 ## Contribuição
 <p>
   Se esse projeto te ajudou ou se tiver alguma dúvida. Por favor, entre em contato. &nbsp;Contribua, vamos ajudar outras pessoas e não esquecer o que aprendemos. 
