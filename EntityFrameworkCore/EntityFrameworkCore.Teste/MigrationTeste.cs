@@ -36,15 +36,5 @@ namespace EntityFrameworkCore.Teste
             // Assert
             Assert.True(produto.Nome == "Caneta Azul" && produto.Valor == 1.39M);
         }
-
-        [Fact(DisplayName = "Consultar Estoque", Skip = "Desenvolver"), Trait("Migration", "Estoque")]
-        public void ConsultarEstoque()
-        {
-            // Arrange
-
-            // Act
-
-            // Assert
-        }
     }
 }

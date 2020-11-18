@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SESMNxFVrm+WQ1wEk6bteeRlGZMEm7VUu8HdtMMZq1mQGkv2/ow4UQG+GyFHxjrzBF7fMBzu2vHPwb7VKMB7IQ==",
+  "dgSpecHash": "LI2Am6oBRNJdNfoIV59C73Ob2GKso9iawLXC90QJDnglNNmLbMD+HiXVKp6soS+mVGsMnnAMBOnIlPDOe65KJQ==",
   "success": true,
   "projectFilePath": "C:\\Projeto\\GitHub\\EntityFrameworkCore\\EntityFrameworkCore\\EntityFrameworkCore.Teste\\EntityFrameworkCore.Teste.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rodol\\.nuget\\packages\\bogus\\31.0.3\\bogus.31.0.3.nupkg.sha512",
     "C:\\Users\\rodol\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\rodol\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\rodol\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

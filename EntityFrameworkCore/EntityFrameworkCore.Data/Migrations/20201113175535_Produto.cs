@@ -1,5 +1,5 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
+using System;
 
 namespace EntityFrameworkCore.Data.Migrations
 {
@@ -12,7 +12,7 @@ namespace EntityFrameworkCore.Data.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Nome = table.Column<string>(type: "VARCHAR(20)", nullable: false),
+                    Nome = table.Column<string>(type: "VARCHAR(50)", nullable: false),
                     Valor = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
                 },
                 constraints: table =>

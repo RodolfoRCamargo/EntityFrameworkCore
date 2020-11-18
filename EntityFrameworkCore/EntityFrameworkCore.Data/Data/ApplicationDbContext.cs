@@ -1,6 +1,5 @@
 ﻿using EntityFrameworkCore.Data.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
 
 namespace EntityFrameworkCore.Data.Data
 {
@@ -9,9 +8,7 @@ namespace EntityFrameworkCore.Data.Data
         public DbSet<Produto> Produtos { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data source=(localdb)\\mssqllocaldb;Initial Catalog=EntityFrameworkCore;Integrated Security=true");
-            // TODO: Colocar informação de conexão em um arquivo
-            // TODO: Incluir comando update-database no arquivo explicando o projeto
+            optionsBuilder.UseSqlServer("Data source=(localdb)\\mssqllocaldb;Initial Catalog=EntityFrameworkCore;Integrated Security=true");            
         }
 
         // Modelagem do Banco de Dados separado por Tabelas

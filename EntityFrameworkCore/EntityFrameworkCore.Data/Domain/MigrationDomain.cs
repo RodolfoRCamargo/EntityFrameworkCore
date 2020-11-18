@@ -1,5 +1,4 @@
 ﻿using EntityFrameworkCore.Data.Models;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -12,7 +11,6 @@ namespace EntityFrameworkCore.Data.Domain
             using var db = new Data.ApplicationDbContext();
 
             var consultarProdutos = db.Produtos.ToList();
-
             return consultarProdutos.Count() >= 0;
         }
 

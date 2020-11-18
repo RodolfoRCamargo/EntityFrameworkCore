@@ -89,7 +89,6 @@ C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Te
 C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Teste\obj\Debug\netcoreapp3.1\EntityFrameworkCore.Teste.csprojAssemblyReference.cache
 C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Teste\obj\Debug\netcoreapp3.1\EntityFrameworkCore.Teste.AssemblyInfoInputs.cache
 C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Teste\obj\Debug\netcoreapp3.1\EntityFrameworkCore.Teste.AssemblyInfo.cs
-C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Teste\obj\Debug\netcoreapp3.1\EntityFrameworkCore.Teste.csproj.CoreCompileInputs.cache
 C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Teste\obj\Debug\netcoreapp3.1\EntityFrameworkCore.Teste.csproj.CopyComplete
 C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Teste\obj\Debug\netcoreapp3.1\EntityFrameworkCore.Teste.dll
 C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Teste\obj\Debug\netcoreapp3.1\EntityFrameworkCore.Teste.pdb
@@ -143,3 +142,5 @@ C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Te
 C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Teste\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Teste\bin\Debug\netcoreapp3.1\EntityFrameworkCore.Data.dll
 C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Teste\bin\Debug\netcoreapp3.1\EntityFrameworkCore.Data.pdb
+C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Teste\obj\Debug\netcoreapp3.1\EntityFrameworkCore.Teste.csproj.CoreCompileInputs.cache
+C:\Projeto\GitHub\EntityFrameworkCore\EntityFrameworkCore\EntityFrameworkCore.Teste\bin\Debug\netcoreapp3.1\Bogus.dll
