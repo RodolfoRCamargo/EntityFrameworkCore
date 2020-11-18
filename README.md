@@ -27,7 +27,7 @@ Update-database
 <img src="https://github.com/RodolfoRCamargo/EntityFrameworkCore/blob/master/Leia-me/2-CriarBancoDados.png?raw=true" alt="Passo2" />  
 
 <p>
- 3 - No Gerenciador de Testes do Visual Studi, execute todos os testes ou o que você preferir.
+ 3 - No Gerenciador de Testes do Visual Studio, execute todos os testes ou o que você preferir.
   <img src="https://github.com/RodolfoRCamargo/EntityFrameworkCore/blob/master/Leia-me/3-ExecutarTestes.png?raw=true" alt="Passo3" />  
 </p>
 
