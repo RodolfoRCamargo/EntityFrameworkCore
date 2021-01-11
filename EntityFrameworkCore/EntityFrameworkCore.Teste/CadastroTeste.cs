@@ -125,5 +125,17 @@ namespace EntityFrameworkCore.Teste
             // Assert
             Assert.True(produtoOriginal.Id == produtoMemoria.Id);
         }
+
+        [Fact(DisplayName = "Consultar Produto usando Procedure"), Trait("Cadastro", "Produto")]
+        public void ConsultarProdutoUsandoProcedure()
+        {
+            // Act
+            List<Produto> produtosMenores1 = new ProdutoDomain().ConsultarProdutosPorNomeUsandoProcedure("Caneta Azul", 1);
+            List<Produto> produtosMaiores1 = new ProdutoDomain().ConsultarProdutosPorNomeUsandoProcedure("Caneta Azul", 5);
+
+            // Assert
+            Assert.True(produtosMenores1.Count > 0);
+            Assert.False(produtosMaiores1.Count > 0);
+        }
     }
 }

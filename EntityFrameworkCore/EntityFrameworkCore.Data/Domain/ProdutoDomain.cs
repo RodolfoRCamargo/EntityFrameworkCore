@@ -1,5 +1,8 @@
 ﻿using EntityFrameworkCore.Data.Models;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 
 namespace EntityFrameworkCore.Data.Domain
@@ -11,6 +14,32 @@ namespace EntityFrameworkCore.Data.Domain
             using var db = new Data.ApplicationDbContext();
 
             return db.Produtos.Where(p => p.Nome == produto.Nome).FirstOrDefault();
+        }
+
+        public List<Produto> ConsultarProdutosPorNomeUsandoProcedure(string nome, decimal valor)
+        {
+            #region Declarar Parâmetros
+            SqlParameter pNome = new SqlParameter("@nome", SqlDbType.VarChar, 50);
+
+            SqlParameter pValor = new SqlParameter("@valor", SqlDbType.Decimal);
+            pValor.Precision = 18;
+            pValor.Scale = 2;
+            #endregion
+
+            #region Atribuir valor aos parâmetros
+            pNome.Value = nome;
+            pValor.Value = valor;
+            #endregion
+
+            using var db = new Data.ApplicationDbContext();
+            
+            return db.Produtos
+                .FromSqlRaw($"consultarprodutopornome @nome,@valor", pNome, pValor)
+                .ToList();
+
+            //return db.Produtos
+            //    .FromSqlRaw($"ConsultarProdutoPorNome '{nome}',{valor}")
+            //    .ToList();
         }
 
         public Produto ConsultarProdutoParteNome(Produto produto)
@@ -50,7 +79,7 @@ namespace EntityFrameworkCore.Data.Domain
             db.SaveChanges();
         }
 
-        // Atualiza apenas a informação atualizada.
+        // Atualiza apenas a informação alterada.
         public void AlterarProduto(Produto produto)
         {
             using var db = new Data.ApplicationDbContext();
